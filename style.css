@@ -1,12 +1,12 @@
  body {
      margin: 0px;
-     font-family: "Raleway",sans-serif;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
 
  .header {
      width: 100%;
      height: 50px;
-     background: rgb(53, 52, 52);
+     background: rgb(125, 72, 72);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -15,13 +15,14 @@
  .header button {
      padding: 10px 20px;
      background: #e4dada;
-     color: #111;
+     color: rgb(85, 61, 61);
      font-size: 16px;
      font-weight: 600;
      border: none;
      outline: none;
      border-radius: 50px;
      cursor: pointer;
+
      
 }
 
@@ -57,8 +58,9 @@
 .editor .preview iframe {
     width: 100%;
     height: 100%;
-    border: none;
-    outline: none;   
+    border: 20px;
+    outline: none;  
+    padding: 10px 20px; 
 }
 .CodeMirror {
     height: auto;
