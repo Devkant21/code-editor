@@ -43,12 +43,12 @@
     border-bottom: 1px solid rgb(133, 114, 114);
 }
 
-/* .editor .code .html-code {
+.editor .code .html-code {
     align-items: center;
     font-weight: 600px;
     font-display: bold;
     padding: 2px
-} */
+}
 
 .editor .preview {
     width: calc(100% - 500px);
